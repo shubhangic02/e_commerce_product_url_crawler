@@ -1,7 +1,8 @@
 This project implements a web crawler designed to discover and list all product URLs across multiple e-commerce websites. The crawler efficiently handles pagination and dynamically loaded content to gather unique product URLs.
 
 Features
-Asynchronous scraping for improved performance using asyncio.
+
+Asynchronous scraping for improved performance using asyncio. 
 Integration of Selenium for handling dynamic content and JavaScript-rendered pages.
 Concurrency control using semaphores to limit the number of simultaneous requests.
 Output of product URLs to a structured JSON file.
